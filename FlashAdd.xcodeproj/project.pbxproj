@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A456607155E0907007B5722 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A456606155E0907007B5722 /* ContactCell.m */; };
+		7A456609155E0930007B5722 /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A456608155E0930007B5722 /* ContactCell.xib */; };
+		7A45660F155F01EA007B5722 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45660E155F01EA007B5722 /* CoreLocation.framework */; };
+		7A456613155F0264007B5722 /* NewContactLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A456612155F0264007B5722 /* NewContactLocationController.m */; };
+		7A45661D155F069C007B5722 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45661C155F069C007B5722 /* MapKit.framework */; };
+		7A4566241560DD5F007B5722 /* LocationMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4566231560DD5F007B5722 /* LocationMapView.m */; };
+		7A4566261560DD9B007B5722 /* LocationMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A4566251560DD9B007B5722 /* LocationMapView.xib */; };
+		7A4566291560E75E007B5722 /* BNRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4566281560E75E007B5722 /* BNRMapPoint.m */; };
+		7A5DFEFD1566263C00E78C52 /* BigMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DFEFB1566263C00E78C52 /* BigMapController.m */; };
+		7A5DFEFE1566263C00E78C52 /* BigMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5DFEFC1566263C00E78C52 /* BigMapController.xib */; };
+		7A5DFF031566288900E78C52 /* AppInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DFF011566288800E78C52 /* AppInfoController.m */; };
+		7A5DFF041566288900E78C52 /* AppInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5DFF021566288800E78C52 /* AppInfoController.xib */; };
+		7A5DFF0C15665EBC00E78C52 /* SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DFF0A15665EBC00E78C52 /* SortViewController.m */; };
+		7A5DFF0D15665EBC00E78C52 /* SortViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5DFF0B15665EBC00E78C52 /* SortViewController.xib */; };
+		7A5DFF0F156676DD00E78C52 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5DFF0E156676DC00E78C52 /* MessageUI.framework */; };
+		7A5DFF17156701BE00E78C52 /* ContactImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DFF16156701BD00E78C52 /* ContactImageStore.m */; };
+		7A63B3D2155D0CDB00DC8361 /* NewContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A63B3D1155D0CDB00DC8361 /* NewContactViewController.m */; };
+		7A63B3D5155D0D0000DC8361 /* NewContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A63B3D4155D0D0000DC8361 /* NewContactViewController.xib */; };
+		7A63B3D8155DCBE500DC8361 /* contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A63B3D6155DCBE500DC8361 /* contacts.png */; };
+		7A63B3D9155DCBE500DC8361 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A63B3D7155DCBE500DC8361 /* plus.png */; };
+		7A63B3DB155DD75A00DC8361 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A63B3DA155DD75A00DC8361 /* AddressBookUI.framework */; };
+		7A8C0B1A155BB07C00E12978 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8C0B19155BB07C00E12978 /* UIKit.framework */; };
+		7A8C0B1C155BB07C00E12978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8C0B1B155BB07C00E12978 /* Foundation.framework */; };
+		7A8C0B1E155BB07C00E12978 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8C0B1D155BB07C00E12978 /* CoreGraphics.framework */; };
+		7A8C0B24155BB07C00E12978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A8C0B22155BB07C00E12978 /* InfoPlist.strings */; };
+		7A8C0B26155BB07C00E12978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8C0B25155BB07C00E12978 /* main.m */; };
+		7A8C0B2A155BB07C00E12978 /* RWUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8C0B29155BB07C00E12978 /* RWUAppDelegate.m */; };
+		7A8C0B32155BB09600E12978 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8C0B31155BB09600E12978 /* Contact.m */; };
+		7A8C0B34155BB53E00E12978 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8C0B33155BB53E00E12978 /* AddressBook.framework */; };
+		7A8C0BA3155CBA4900E12978 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8C0BA2155CBA4900E12978 /* ContactsViewController.m */; };
+		7A8C0BA7155CBFE000E12978 /* ContactStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8C0BA6155CBFE000E12978 /* ContactStore.m */; };
+		7A8C0BAD155CCDAC00E12978 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8C0BAB155CCDAC00E12978 /* DetailViewController.m */; };
+		7A8C0BAE155CCDAC00E12978 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A8C0BAC155CCDAC00E12978 /* DetailViewController.xib */; };
+		7AF71A0F156448CA003C2B25 /* DetailEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF71A0D156448CA003C2B25 /* DetailEditViewController.m */; };
+		7AF71A10156448CA003C2B25 /* DetailEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF71A0E156448CA003C2B25 /* DetailEditViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A456605155E0907007B5722 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		7A456606155E0907007B5722 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
+		7A456608155E0930007B5722 /* ContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
+		7A45660E155F01EA007B5722 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7A456611155F0264007B5722 /* NewContactLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewContactLocationController.h; sourceTree = "<group>"; };
+		7A456612155F0264007B5722 /* NewContactLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewContactLocationController.m; sourceTree = "<group>"; };
+		7A45661C155F069C007B5722 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7A4566221560DD5F007B5722 /* LocationMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMapView.h; sourceTree = "<group>"; };
+		7A4566231560DD5F007B5722 /* LocationMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMapView.m; sourceTree = "<group>"; };
+		7A4566251560DD9B007B5722 /* LocationMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationMapView.xib; sourceTree = "<group>"; };
+		7A4566271560E75E007B5722 /* BNRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPoint.h; sourceTree = "<group>"; };
+		7A4566281560E75E007B5722 /* BNRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPoint.m; sourceTree = "<group>"; };
+		7A5DFEFA1566263B00E78C52 /* BigMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigMapController.h; sourceTree = "<group>"; };
+		7A5DFEFB1566263C00E78C52 /* BigMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigMapController.m; sourceTree = "<group>"; };
+		7A5DFEFC1566263C00E78C52 /* BigMapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigMapController.xib; sourceTree = "<group>"; };
+		7A5DFF001566288800E78C52 /* AppInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoController.h; sourceTree = "<group>"; };
+		7A5DFF011566288800E78C52 /* AppInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoController.m; sourceTree = "<group>"; };
+		7A5DFF021566288800E78C52 /* AppInfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppInfoController.xib; sourceTree = "<group>"; };
+		7A5DFF0915665EBC00E78C52 /* SortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortViewController.h; sourceTree = "<group>"; };
+		7A5DFF0A15665EBC00E78C52 /* SortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortViewController.m; sourceTree = "<group>"; };
+		7A5DFF0B15665EBC00E78C52 /* SortViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortViewController.xib; sourceTree = "<group>"; };
+		7A5DFF0E156676DC00E78C52 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7A5DFF15156701BC00E78C52 /* ContactImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactImageStore.h; sourceTree = "<group>"; };
+		7A5DFF16156701BD00E78C52 /* ContactImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactImageStore.m; sourceTree = "<group>"; };
+		7A63B3D0155D0CDB00DC8361 /* NewContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewContactViewController.h; sourceTree = "<group>"; };
+		7A63B3D1155D0CDB00DC8361 /* NewContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewContactViewController.m; sourceTree = "<group>"; };
+		7A63B3D4155D0D0000DC8361 /* NewContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewContactViewController.xib; sourceTree = "<group>"; };
+		7A63B3D6155DCBE500DC8361 /* contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts.png; sourceTree = "<group>"; };
+		7A63B3D7155DCBE500DC8361 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		7A63B3DA155DD75A00DC8361 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		7A8C0B15155BB07C00E12978 /* FlashAdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashAdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8C0B19155BB07C00E12978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A8C0B1B155BB07C00E12978 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A8C0B1D155BB07C00E12978 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A8C0B21155BB07C00E12978 /* FlashAdd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashAdd-Info.plist"; sourceTree = "<group>"; };
+		7A8C0B23155BB07C00E12978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A8C0B25155BB07C00E12978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A8C0B27155BB07C00E12978 /* FlashAdd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashAdd-Prefix.pch"; sourceTree = "<group>"; };
+		7A8C0B28155BB07C00E12978 /* RWUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUAppDelegate.h; sourceTree = "<group>"; };
+		7A8C0B29155BB07C00E12978 /* RWUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWUAppDelegate.m; sourceTree = "<group>"; };
+		7A8C0B30155BB09600E12978 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		7A8C0B31155BB09600E12978 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		7A8C0B33155BB53E00E12978 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7A8C0BA1155CBA4900E12978 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		7A8C0BA2155CBA4900E12978 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		7A8C0BA5155CBFE000E12978 /* ContactStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactStore.h; sourceTree = "<group>"; };
+		7A8C0BA6155CBFE000E12978 /* ContactStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactStore.m; sourceTree = "<group>"; };
+		7A8C0BAA155CCDAC00E12978 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7A8C0BAB155CCDAC00E12978 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7A8C0BAC155CCDAC00E12978 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		7AF71A0C156448CA003C2B25 /* DetailEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailEditViewController.h; sourceTree = "<group>"; };
+		7AF71A0D156448CA003C2B25 /* DetailEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailEditViewController.m; sourceTree = "<group>"; };
+		7AF71A0E156448CA003C2B25 /* DetailEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailEditViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A8C0B12155BB07C00E12978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5DFF0F156676DD00E78C52 /* MessageUI.framework in Frameworks */,
+				7A45661D155F069C007B5722 /* MapKit.framework in Frameworks */,
+				7A45660F155F01EA007B5722 /* CoreLocation.framework in Frameworks */,
+				7A63B3DB155DD75A00DC8361 /* AddressBookUI.framework in Frameworks */,
+				7A8C0B34155BB53E00E12978 /* AddressBook.framework in Frameworks */,
+				7A8C0B1A155BB07C00E12978 /* UIKit.framework in Frameworks */,
+				7A8C0B1C155BB07C00E12978 /* Foundation.framework in Frameworks */,
+				7A8C0B1E155BB07C00E12978 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A8C0B0A155BB07C00E12978 = {
+			isa = PBXGroup;
+			children = (
+				7A5DFF0E156676DC00E78C52 /* MessageUI.framework */,
+				7A45661C155F069C007B5722 /* MapKit.framework */,
+				7A45660E155F01EA007B5722 /* CoreLocation.framework */,
+				7A63B3DA155DD75A00DC8361 /* AddressBookUI.framework */,
+				7A63B3D6155DCBE500DC8361 /* contacts.png */,
+				7A63B3D7155DCBE500DC8361 /* plus.png */,
+				7A456611155F0264007B5722 /* NewContactLocationController.h */,
+				7A456612155F0264007B5722 /* NewContactLocationController.m */,
+				7AF71A0C156448CA003C2B25 /* DetailEditViewController.h */,
+				7AF71A0D156448CA003C2B25 /* DetailEditViewController.m */,
+				7A5DFF15156701BC00E78C52 /* ContactImageStore.h */,
+				7A5DFF16156701BD00E78C52 /* ContactImageStore.m */,
+				7AF71A0E156448CA003C2B25 /* DetailEditViewController.xib */,
+				7A5DFF0915665EBC00E78C52 /* SortViewController.h */,
+				7A5DFF0A15665EBC00E78C52 /* SortViewController.m */,
+				7A5DFF0B15665EBC00E78C52 /* SortViewController.xib */,
+				7A4566221560DD5F007B5722 /* LocationMapView.h */,
+				7A4566231560DD5F007B5722 /* LocationMapView.m */,
+				7A4566251560DD9B007B5722 /* LocationMapView.xib */,
+				7A4566271560E75E007B5722 /* BNRMapPoint.h */,
+				7A4566281560E75E007B5722 /* BNRMapPoint.m */,
+				7A63B3D0155D0CDB00DC8361 /* NewContactViewController.h */,
+				7A63B3D4155D0D0000DC8361 /* NewContactViewController.xib */,
+				7A63B3D1155D0CDB00DC8361 /* NewContactViewController.m */,
+				7A5DFEFA1566263B00E78C52 /* BigMapController.h */,
+				7A5DFEFB1566263C00E78C52 /* BigMapController.m */,
+				7A5DFEFC1566263C00E78C52 /* BigMapController.xib */,
+				7A5DFF001566288800E78C52 /* AppInfoController.h */,
+				7A5DFF011566288800E78C52 /* AppInfoController.m */,
+				7A5DFF021566288800E78C52 /* AppInfoController.xib */,
+				7A8C0BA1155CBA4900E12978 /* ContactsViewController.h */,
+				7A8C0BA2155CBA4900E12978 /* ContactsViewController.m */,
+				7A456605155E0907007B5722 /* ContactCell.h */,
+				7A456606155E0907007B5722 /* ContactCell.m */,
+				7A456608155E0930007B5722 /* ContactCell.xib */,
+				7A8C0B33155BB53E00E12978 /* AddressBook.framework */,
+				7A8C0B30155BB09600E12978 /* Contact.h */,
+				7A8C0B31155BB09600E12978 /* Contact.m */,
+				7A8C0B1F155BB07C00E12978 /* FlashAdd */,
+				7A8C0B18155BB07C00E12978 /* Frameworks */,
+				7A8C0B16155BB07C00E12978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A8C0B16155BB07C00E12978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A8C0B15155BB07C00E12978 /* FlashAdd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A8C0B18155BB07C00E12978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A8C0B19155BB07C00E12978 /* UIKit.framework */,
+				7A8C0B1B155BB07C00E12978 /* Foundation.framework */,
+				7A8C0B1D155BB07C00E12978 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A8C0B1F155BB07C00E12978 /* FlashAdd */ = {
+			isa = PBXGroup;
+			children = (
+				7A8C0B28155BB07C00E12978 /* RWUAppDelegate.h */,
+				7A8C0B29155BB07C00E12978 /* RWUAppDelegate.m */,
+				7A8C0BAA155CCDAC00E12978 /* DetailViewController.h */,
+				7A8C0BAB155CCDAC00E12978 /* DetailViewController.m */,
+				7A8C0BAC155CCDAC00E12978 /* DetailViewController.xib */,
+				7A8C0BA5155CBFE000E12978 /* ContactStore.h */,
+				7A8C0BA6155CBFE000E12978 /* ContactStore.m */,
+				7A8C0B20155BB07C00E12978 /* Supporting Files */,
+			);
+			path = FlashAdd;
+			sourceTree = "<group>";
+		};
+		7A8C0B20155BB07C00E12978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A8C0B21155BB07C00E12978 /* FlashAdd-Info.plist */,
+				7A8C0B22155BB07C00E12978 /* InfoPlist.strings */,
+				7A8C0B25155BB07C00E12978 /* main.m */,
+				7A8C0B27155BB07C00E12978 /* FlashAdd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A8C0B14155BB07C00E12978 /* FlashAdd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8C0B2D155BB07C00E12978 /* Build configuration list for PBXNativeTarget "FlashAdd" */;
+			buildPhases = (
+				7A8C0B11155BB07C00E12978 /* Sources */,
+				7A8C0B12155BB07C00E12978 /* Frameworks */,
+				7A8C0B13155BB07C00E12978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashAdd;
+			productName = FlashAdd;
+			productReference = 7A8C0B15155BB07C00E12978 /* FlashAdd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A8C0B0C155BB07C00E12978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RWU;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Weill Cornell";
+			};
+			buildConfigurationList = 7A8C0B0F155BB07C00E12978 /* Build configuration list for PBXProject "FlashAdd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A8C0B0A155BB07C00E12978;
+			productRefGroup = 7A8C0B16155BB07C00E12978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A8C0B14155BB07C00E12978 /* FlashAdd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A8C0B13155BB07C00E12978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8C0B24155BB07C00E12978 /* InfoPlist.strings in Resources */,
+				7A8C0BAE155CCDAC00E12978 /* DetailViewController.xib in Resources */,
+				7A63B3D5155D0D0000DC8361 /* NewContactViewController.xib in Resources */,
+				7A63B3D8155DCBE500DC8361 /* contacts.png in Resources */,
+				7A63B3D9155DCBE500DC8361 /* plus.png in Resources */,
+				7A456609155E0930007B5722 /* ContactCell.xib in Resources */,
+				7A4566261560DD9B007B5722 /* LocationMapView.xib in Resources */,
+				7AF71A10156448CA003C2B25 /* DetailEditViewController.xib in Resources */,
+				7A5DFEFE1566263C00E78C52 /* BigMapController.xib in Resources */,
+				7A5DFF041566288900E78C52 /* AppInfoController.xib in Resources */,
+				7A5DFF0D15665EBC00E78C52 /* SortViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A8C0B11155BB07C00E12978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8C0B26155BB07C00E12978 /* main.m in Sources */,
+				7A8C0B2A155BB07C00E12978 /* RWUAppDelegate.m in Sources */,
+				7A8C0B32155BB09600E12978 /* Contact.m in Sources */,
+				7A8C0BA3155CBA4900E12978 /* ContactsViewController.m in Sources */,
+				7A8C0BA7155CBFE000E12978 /* ContactStore.m in Sources */,
+				7A8C0BAD155CCDAC00E12978 /* DetailViewController.m in Sources */,
+				7A63B3D2155D0CDB00DC8361 /* NewContactViewController.m in Sources */,
+				7A456607155E0907007B5722 /* ContactCell.m in Sources */,
+				7A456613155F0264007B5722 /* NewContactLocationController.m in Sources */,
+				7A4566241560DD5F007B5722 /* LocationMapView.m in Sources */,
+				7A4566291560E75E007B5722 /* BNRMapPoint.m in Sources */,
+				7AF71A0F156448CA003C2B25 /* DetailEditViewController.m in Sources */,
+				7A5DFEFD1566263C00E78C52 /* BigMapController.m in Sources */,
+				7A5DFF031566288900E78C52 /* AppInfoController.m in Sources */,
+				7A5DFF0C15665EBC00E78C52 /* SortViewController.m in Sources */,
+				7A5DFF17156701BE00E78C52 /* ContactImageStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A8C0B22155BB07C00E12978 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A8C0B23155BB07C00E12978 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A8C0B2B155BB07C00E12978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A8C0B2C155BB07C00E12978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A8C0B2E155BB07C00E12978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashAdd/FlashAdd-Prefix.pch";
+				INFOPLIST_FILE = "FlashAdd/FlashAdd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A8C0B2F155BB07C00E12978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashAdd/FlashAdd-Prefix.pch";
+				INFOPLIST_FILE = "FlashAdd/FlashAdd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A8C0B0F155BB07C00E12978 /* Build configuration list for PBXProject "FlashAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8C0B2B155BB07C00E12978 /* Debug */,
+				7A8C0B2C155BB07C00E12978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A8C0B2D155BB07C00E12978 /* Build configuration list for PBXNativeTarget "FlashAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8C0B2E155BB07C00E12978 /* Debug */,
+				7A8C0B2F155BB07C00E12978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A8C0B0C155BB07C00E12978 /* Project object */;
+}
